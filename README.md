@@ -1,6 +1,8 @@
 # 🚀 Packer Unpacker - Java File Archiving Utility (CUI Based)
 
-> A comprehensive command-line Java application to simulate real-world file archiving and extraction. This project merges the power of low-level byte stream operations with object-oriented design to demonstrate how `.txt` files can be packed into a single archive and later unpacked back into their original state.
+> Packer Unpacker is a Java-based Command Line Interface (CUI) application that enables users to simulate a file archiving system. The project combines multiple .txt files from a directory into a single packed file and later allows those files to be restored (unpacked) back to their original state. This system uses manual byte-level operations and a fixed-header mechanism to manage file metadata (like filename and size) during the packing/unpacking process.
+
+> The application serves as a foundational exercise in Java I/O streams, file system navigation, header-based metadata management, and object-oriented programming (OOP). It's designed to give hands-on experience with core system-level file operations in Java — mimicking real-world archiving tools such as ZIP or TAR but with a custom implementation.
 
 ---
 
